@@ -26,7 +26,10 @@ export default function Projects(){
                     </ul>
                 </div>
                 <div className="project-item-buttons-div">
-                    <button className="project-item-button">GitHub</button>
+                    <button 
+                        className="project-item-button"
+                        onClick={() => window.open(item.gitHub,"_blank")}
+                    >GitHub</button>
                     <button 
                         className="project-item-button visit-site"
                         onClick={() => window.open(item.siteUrl,"_blank")}

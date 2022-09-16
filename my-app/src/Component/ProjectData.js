@@ -8,7 +8,7 @@ export default [
         details:["Responsive","Register-Login works via localStorage","Slider"],
         pictureUrl:require("./Images/sitepick.png"),
         siteUrl:"https://effervescent-sopapillas-adfafb.netlify.app/",
-        gitHub:""
+        gitHub:"https://github.com/DimitriKobakhidze/gymSite"
     },
     {
         name:"BlackJack",
@@ -16,7 +16,7 @@ export default [
         details:["Responsive","Animation","Game logic"],
         pictureUrl:require("./Images/blackjac.png"),
         siteUrl:"https://quiet-quokka-f873bd.netlify.app/",
-        gitHub:""
+        gitHub:"https://github.com/DimitriKobakhidze/blackJack"
     },
     {
         name:"Catch Dice",
@@ -24,7 +24,7 @@ export default [
         details:["Responsive","Game logic","Timer","Counter"],
         pictureUrl:require("./Images/dice.png"),
         siteUrl:"https://cosmic-moonbeam-2eab24.netlify.app/",
-        gitHub:""
+        gitHub:"https://github.com/DimitriKobakhidze/catchDice"
     },
     {
         name:"Quiz Game",
@@ -32,7 +32,7 @@ export default [
         details:["Responsive","API fetching","answer-checking","conditional styling"],
         pictureUrl:require("./Images/quiz.png"),
         siteUrl:"https://tangerine-paletas-ec07d8.netlify.app/",
-        gitHub:""
+        gitHub:"https://github.com/DimitriKobakhidze/quizGame"
     },
     {
         name:"Meme Generator",
@@ -40,6 +40,6 @@ export default [
         details:["Responsive","API fetching","Inputs"],
         pictureUrl:require("./Images/meme.png"),
         siteUrl:"https://helpful-arithmetic-956806.netlify.app/",
-        gitHub:""
+        gitHub:"https://github.com/DimitriKobakhidze/memeGenerator"
     }
 ]
