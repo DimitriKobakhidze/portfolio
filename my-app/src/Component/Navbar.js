@@ -14,7 +14,7 @@ export default function Navbar(){
                 <li><a href="#about"><BiUserCircle className="react-icon" /></a></li>
                 <li><a href="#knowledge"><BiBookAlt className="react-icon" /></a></li>
                 <li><a href="#projects"><MdOutlineWorkOutline className="react-icon" /></a></li>
-                <li><a href="#"><FiMessageSquare className="react-icon" /></a></li>
+                <li><a href="#contact"><FiMessageSquare className="react-icon" /></a></li>
             </ul>
         </nav>
     )
