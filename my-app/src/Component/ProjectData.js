@@ -19,6 +19,14 @@ export default [
         gitHub:"https://github.com/DimitriKobakhidze/blackJack"
     },
     {
+        name:"SpaceX Missions",
+        about:"Gives information about spaceX missions",
+        details:["Responsive","API fetching","GraphQL"],
+        pictureUrl:require("./Images/spaceX.png"),
+        siteUrl:"https://phenomenal-clafoutis-a7e723.netlify.app/",
+        gitHub:"https://github.com/DimitriKobakhidze/spacexProject"
+    },
+    {
         name:"Catch Dice",
         about:"Collect all same dices,track time and roll number",
         details:["Responsive","Game logic","Timer","Counter"],
