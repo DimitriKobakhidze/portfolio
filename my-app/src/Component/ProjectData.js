@@ -3,6 +3,14 @@
 
 export default [
     {
+        name:"Movie Base",
+        about:"Search unlimited movies and tv shows or view them by categories",
+        details:["Responsive","API fetching","Routing","Conditional fetching"],
+        pictureUrl:require("./Images/movieSite.png"),
+        siteUrl:"https://funny-profiterole-e20648.netlify.app/",
+        gitHub:"https://github.com/DimitriKobakhidze/mdtbSite"
+    },
+    {
         name:"Gym Site",
         about:"You can check exercises of every body part,how to do them correctly,what to eat for muscle growth.",
         details:["Responsive","Register-Login works via localStorage","Slider"],
