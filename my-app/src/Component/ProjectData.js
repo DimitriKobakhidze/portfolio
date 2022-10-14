@@ -11,6 +11,14 @@ export default [
         gitHub:"https://github.com/DimitriKobakhidze/mdtbSite"
     },
     {
+        name:"Productivity Plan",
+        about:"Create lists of plans for all seven days of week",
+        details:["Responsive","Saving data","Use of  from and state"],
+        pictureUrl:require("./Images/productivityPlan.png"),
+        siteUrl:"https://heartfelt-youtiao-d6deb3.netlify.app/",
+        gitHub:"https://github.com/DimitriKobakhidze/productivityPlanProject"
+    },
+    {
         name:"Gym Site",
         about:"You can check exercises of every body part,how to do them correctly,what to eat for muscle growth.",
         details:["Responsive","Register-Login works via localStorage","Slider"],
