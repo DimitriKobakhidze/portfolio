@@ -3,20 +3,20 @@
 
 export default [
     {
+        name:"Online Fast Food Site",
+        about:"Site based on popular series Breaking Bad and Better Call Saul",
+        details:["API fetching","Redux","Add remove items in cart","Routing","Conditional fetching","Dummy backend","Module CSS"],
+        pictureUrl:require("./Images/shopsite.png"),
+        siteUrl:"https://serene-lollipop-074fbe.netlify.app/",
+        gitHub:"https://github.com/DimitriKobakhidze/losPollosHermanos"
+    },
+    {
         name:"Movie Base",
         about:"Search unlimited movies and tv shows or view them by categories",
-        details:["Responsive","API fetching","Routing","Conditional fetching"],
+        details:["Responsive","API fetching","Routing","Conditional fetching","Module CSS"],
         pictureUrl:require("./Images/movieSite.png"),
         siteUrl:"https://funny-profiterole-e20648.netlify.app/",
         gitHub:"https://github.com/DimitriKobakhidze/mdtbSite"
-    },
-    {
-        name:"Productivity Plan",
-        about:"Create lists of plans for all seven days of week",
-        details:["Responsive","Saving data","Use of  from and state"],
-        pictureUrl:require("./Images/productivityPlan.png"),
-        siteUrl:"https://heartfelt-youtiao-d6deb3.netlify.app/",
-        gitHub:"https://github.com/DimitriKobakhidze/productivityPlanProject"
     },
     {
         name:"Gym Site",
@@ -27,12 +27,28 @@ export default [
         gitHub:"https://github.com/DimitriKobakhidze/gymSite"
     },
     {
+        name:"Productivity Plan",
+        about:"Create lists of plans for all seven days of week",
+        details:["Responsive","Saving data","Use of  from and state"],
+        pictureUrl:require("./Images/productivityPlan.png"),
+        siteUrl:"https://heartfelt-youtiao-d6deb3.netlify.app/",
+        gitHub:"https://github.com/DimitriKobakhidze/productivityPlanProject"
+    },
+    {
         name:"BlackJack",
         about:"Well known card game",
         details:["Responsive","Animation","Game logic"],
         pictureUrl:require("./Images/blackjac.png"),
         siteUrl:"https://quiet-quokka-f873bd.netlify.app/",
         gitHub:"https://github.com/DimitriKobakhidze/blackJack"
+    },
+    {
+        name:"Currency Calculator",
+        about:"Convert given amount of money from any curreny to any",
+        details:["Responsive","Fetching currencies","Exchange logic"],
+        pictureUrl:require("./Images/currchanger.png"),
+        siteUrl:"https://startling-scone-01642d.netlify.app/",
+        gitHub:"https://github.com/DimitriKobakhidze/currencyCalculator"
     },
     {
         name:"SpaceX Missions",
