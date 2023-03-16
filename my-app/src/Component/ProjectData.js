@@ -21,9 +21,9 @@ export default [
     {
         name:"Gym Site",
         about:"You can check exercises of every body part,how to do them correctly,what to eat for muscle growth.",
-        details:["Responsive","Register-Login works via localStorage","Slider"],
+        details:["Responsive","Authentifiaction Login/Register","Slider"],
         pictureUrl:require("./Images/sitepick.png"),
-        siteUrl:"https://effervescent-sopapillas-adfafb.netlify.app/",
+        siteUrl:"https://zesty-malabi-2116ea.netlify.app/",
         gitHub:"https://github.com/DimitriKobakhidze/gymSite"
     },
     {
