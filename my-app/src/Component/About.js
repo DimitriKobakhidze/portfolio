@@ -1,10 +1,11 @@
-import React from "react"
 
+import useAppear from "../Hooks/useAppear"
 
 
 export default function About(){
+    const { itemRef } = useAppear('slideX')
     return(
-        <div className="about-div" id="about">
+        <div ref={itemRef} className="about-div" id="about">
             <div className="about-header-div">
                 <h1 className="about-h1">ABOUT ME</h1>
             </div>

@@ -1,11 +1,14 @@
-import React from "react";
+
+import useAppear from "../Hooks/useAppear"
 import myPicture from "./Images/me.png"
 
 
 
 export default function Home(){
+    const { itemRef } = useAppear('slideY')
+    
     return(
-        <div className="home-div" id="home">
+        <div ref={itemRef} className="home-div" id="home">
             <div className="home-text-div">
                 <h4 className="home-h4">Hello,I'm</h4>
                 <h1 className="home-h1">Dimitri</h1>

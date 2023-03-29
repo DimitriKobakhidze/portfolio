@@ -26,6 +26,7 @@ body{
 }
 
 
+
 ::-webkit-scrollbar-track {
   background: transparent;
 }
@@ -45,8 +46,12 @@ body{
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   padding-top: 150px;
-  
+  transform: translateY(-200px);
+  opacity: 0;
+  transition: 250ms;
 }
+
+
 .home-div div{
   /* border: solid white; */
   width: 352px;
@@ -100,6 +105,7 @@ body{
   border-radius: 15px;
   display: flex;
   align-items: center;
+  z-index: 1000;
 }
 .nav-bar ul {
   display: flex;
@@ -124,6 +130,9 @@ body{
   margin: auto;
   margin-top: 120px;
   background-color: var(--lighterBlue);
+  transform: translateX(300px);
+  opacity: 0;
+  transition: 250ms;
   /* -moz-box-shadow: 0 0 10px var(--headerWhite);
   -webkit-box-shadow: 0 0 10px var(--headerWhite);
   box-shadow: 0 0 10px var(--headerWhite); */
@@ -162,11 +171,19 @@ body{
   gap: 30px;
 }
 
-.knowledge-div > div{
+.knowledge-inner-div-left,.knowledge-inner-div-right{
   flex: 1;
   padding: 50px;
   background-color: var(--lighterBlue);
   border-radius: 45px;
+  opacity: 0;
+  transition: 300ms;
+}
+.knowledge-inner-div-left {
+  transform: translateX(-400px) rotate(-90deg);
+}
+.knowledge-inner-div-right {
+  transform: translateX(400px) rotate(90deg);
 }
 .knowledge-h2{
   text-align: center;
@@ -205,9 +222,11 @@ body{
   text-align: center;
   margin-bottom: 5px;
 }
-.knowledge-main-div{
+.knowledge-main-div,.projects-main-div{
   margin-top: 120px;
 }
+
+
 .projects-div{
   width: 1000px;
   margin: auto;
@@ -217,7 +236,7 @@ body{
   row-gap: 50px;
   justify-content: space-around;
 }
-.project-item{
+.project-item-left,.project-item-right{
   width: 350px;
   /* border: solid; */
   border-radius: 15px;
@@ -226,6 +245,14 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  opacity: 0;
+  transition: 300ms;
+}
+.project-item-left {
+  transform: translateX(-500px) rotate(-90deg);
+}
+.project-item-right {
+  transform: translateX(500px) rotate(90deg);
 }
 .project-item-pic-div{
   background-color: red;
@@ -278,6 +305,9 @@ body{
   flex-direction: column;
   margin-top: 120px;
   align-items: center;
+  /* opacity: 0;
+  transform: translateX(200px);
+  transition: 300ms; */
 }
 .contact-icon{
   font-size: 65px;
@@ -292,6 +322,9 @@ body{
   align-items: center;
   padding: 25px 0 25px 0;
   margin-bottom: 20px;
+  opacity: 0;
+  transform: translateX(200px);
+  transition: 300ms;
 }
 .contact-h4{
   padding-top: 15px;
@@ -307,8 +340,23 @@ body{
   text-decoration: underline;
   font-size: 25px;
 }
+.slideY{
+  transform: translateY(0) rotate(0);
+  opacity: 1;
+}
+.slideX{
+  transform: translateX(0) rotate(0);
+  opacity: 1;
+}
 
 @media screen and (max-width: 1024px) {
+  .home-div, .about-div, .knowledge-inner-div-left,.knowledge-inner-div-right,.project-item-left,.project-item-right,
+  .contact-item {
+    opacity: 1;
+    transform: translateX(0);
+    transform: translateY(0);
+    transition: 0ms;
+  }
   .about-div{
     width: 600px;
   }
@@ -379,9 +427,17 @@ body{
   
 }
 @media screen and (max-width: 600px) {
+ 
   #root{
     display: flex;
     justify-content: center;
+  }
+  .home-div, .about-div, .knowledge-inner-div-left,.knowledge-inner-div-right,.project-item-left,.project-item-right,
+  .contact-item {
+    opacity: 1;
+    transform: translateX(0);
+    transform: translateY(0);
+    transition: 0ms;
   }
   .main-div{
     width: 370px;
