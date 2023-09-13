@@ -1,7 +1,6 @@
 import { useCallback, useRef } from "react"
 
 const useAppear = (animateClass,options) => {
-    console.log(options)
     const observer = useRef()
 
     const itemRef = useCallback((node) => {

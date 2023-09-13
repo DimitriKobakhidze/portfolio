@@ -13,6 +13,7 @@
   text-decoration: none;
   color: white;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
   /* outline: solid #f00 1px !important; */
 }
 body{
@@ -169,6 +170,7 @@ body{
   display: flex;
   justify-content: space-between;
   gap: 30px;
+  overflow-y: hidden;
 }
 
 .knowledge-inner-div-left,.knowledge-inner-div-right{
@@ -180,10 +182,10 @@ body{
   transition: 300ms;
 }
 .knowledge-inner-div-left {
-  transform: translateX(-400px) rotate(-90deg);
+  transform: translateX(-300px) rotate(-90deg);
 }
 .knowledge-inner-div-right {
-  transform: translateX(400px) rotate(90deg);
+  transform: translateX(300px) rotate(90deg);
 }
 .knowledge-h2{
   text-align: center;
@@ -235,6 +237,7 @@ body{
   /* border: solid; */
   row-gap: 50px;
   justify-content: space-around;
+  overflow: hidden;
 }
 .project-item-left,.project-item-right{
   width: 350px;

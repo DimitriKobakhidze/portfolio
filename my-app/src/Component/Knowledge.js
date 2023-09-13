@@ -4,8 +4,8 @@ import {BsPatchCheckFill} from "react-icons/bs"
 
 
 export default function Knowledge(){
-    const { itemRef } = useAppear('slideX')
-    const { itemRef: itemRef2} = useAppear('slideX')
+    const { itemRef } = useAppear('slideX',{threshold: 0})
+    const { itemRef: itemRef2} = useAppear('slideY',{threshold: 0})
     return(
         <div className="knowledge-main-div" id="knowledge">
             <h4 className="knowledge-h4">What Skills I Have</h4>
