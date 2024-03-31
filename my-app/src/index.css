@@ -6,6 +6,10 @@
   --headerWhite: #fcfefe;
   --secondaryGrey: #88889e;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -161,6 +165,7 @@ body {
   width: 1000px;
   margin: auto;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   gap: 30px;
   overflow-y: hidden;
@@ -169,7 +174,7 @@ body {
 .knowledge-inner-div-left,
 .knowledge-inner-div-right {
   flex: 1;
-  padding: 50px;
+  padding: 30px;
   background-color: var(--lighterBlue);
   border-radius: 45px;
   opacity: 0;
@@ -185,15 +190,17 @@ body {
   text-align: center;
   color: var(--lighterBlue);
   background-color: var(--lightOrange);
-  padding: 10px 0px;
+  padding: 10px;
+  width: fit-content;
+  margin: auto;
 }
 .knowledge-items-div {
   margin-top: 15px;
+
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   gap: 35px;
-  /* border: solid; */
 }
 .knowledge-item {
   min-width: 30%;
@@ -395,6 +402,7 @@ body {
   }
   .knowledge-items-div {
     gap: 10px;
+    justify-content: center;
   }
   .projects-div {
     width: 600px;

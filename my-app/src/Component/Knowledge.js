@@ -16,19 +16,19 @@ export default function Knowledge() {
           <div className="knowledge-items-div">
             <div className="knowledge-item">
               <BsPatchCheckFill className="knowledge-check" />
-              <h3>HTML</h3>
+              <h3>ReactJS</h3>
             </div>
             <div className="knowledge-item">
               <BsPatchCheckFill className="knowledge-check" />
-              <h3>CSS</h3>
+              <h3>Redux</h3>
             </div>
             <div className="knowledge-item">
               <BsPatchCheckFill className="knowledge-check" />
-              <h3>JavaScript</h3>
+              <h3>React Query</h3>
             </div>
             <div className="knowledge-item">
               <BsPatchCheckFill className="knowledge-check" />
-              <h3>React</h3>
+              <h3>Zustand</h3>
             </div>
           </div>
         </div>
@@ -36,9 +36,14 @@ export default function Knowledge() {
           <h3 className="knowledge-h2">Backend Development</h3>
           <div className="knowledge-items-div">
             <div className="knowledge-item">
-              {/* <BsPatchCheckFill className="knowledge-check" /> */}
+              <BsPatchCheckFill className="knowledge-check" />
               <RoundSpinner />
-              <h3>PHP</h3>
+              <h3>ExpressJS</h3>
+            </div>
+            <div className="knowledge-item">
+              <BsPatchCheckFill className="knowledge-check" />
+              <RoundSpinner />
+              <h3>Mongoose</h3>
             </div>
             <div className="knowledge-item">
               <BsPatchCheckFill className="knowledge-check" />

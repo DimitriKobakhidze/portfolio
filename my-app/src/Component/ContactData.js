@@ -2,7 +2,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { MdMailOutline } from "react-icons/md";
 import { BsPhone } from "react-icons/bs";
 
-export default [
+const ContactData = [
   {
     icon: MdMailOutline,
     name: "Gmail",
@@ -22,3 +22,5 @@ export default [
     link: "",
   },
 ];
+
+export default ContactData;
