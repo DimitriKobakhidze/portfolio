@@ -1,5 +1,4 @@
 import useAppear from "../Hooks/useAppear";
-import myPicture from "./Images/me.png";
 
 export default function Home() {
   const { itemRef } = useAppear("slideY");
@@ -13,7 +12,7 @@ export default function Home() {
         <h4 className="home-h4-developer">React Developer</h4>
       </div>
       <div className="home-image-div">
-        <img className="home-picture" src={myPicture} alt="home"></img>
+        <img className="home-picture" src="/me.png" alt="home" />
       </div>
     </div>
   );

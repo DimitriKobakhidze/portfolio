@@ -13,12 +13,14 @@ const ProjectItem = ({ item, slideDireciton }) => {
       </li>
     );
   });
-  const backgroundStyle = {
-    backgroundImage: `url(${item.pictureUrl})`,
-  };
+
   return (
     <div ref={itemRef} className={`project-item-${slideDireciton}`}>
-      <div className="project-item-pic-div" style={backgroundStyle}></div>
+      <img
+        className="project-item-pic-div"
+        src={item.pictureUrl}
+        alt="project item"
+      />
       <h3 className="project-item-name">{item.name}</h3>
       <p className="project-description">{item.about}</p>
       <div className="project-item-details-div">
@@ -29,8 +31,16 @@ const ProjectItem = ({ item, slideDireciton }) => {
           className="project-item-button"
           onClick={() => window.open(item.gitHub, "_blank")}
         >
-          GitHub
+          Github
         </button>
+        {item.gitHubBackend && (
+          <button
+            className="project-item-button"
+            onClick={() => window.open(item.gitHubBackend, "_blank")}
+          >
+            Github Backend
+          </button>
+        )}
         <button
           className="project-item-button visit-site"
           onClick={() => window.open(item.siteUrl, "_blank")}
